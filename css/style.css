@@ -1,0 +1,245 @@
+
+body{
+    height: 100%;
+    background-image: url("../img/Eclair.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+   
+.bg-light{
+    background-color: #cbbbcc !important;
+}
+a, h1, h2{
+    color: #1c1113 !important;
+}
+nav a:hover{ 
+    color: #4c443c !important;
+    font-size: 20px;
+}
+a:hover{
+    color: #4c443c !important;
+}
+.nav-link{
+    color: #1c1113 !important;
+}
+.presentation{
+    display: flex;
+    color: #1c1113;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin: 70px auto;
+    padding: 20px;
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 50%);
+    background-color: rgba(255, 255, 255, 0.3 );
+}
+.img {
+    border-radius: 50%;
+    width: 150px;
+    margin-top: -30px;
+}
+h2{
+    text-align: center;
+}
+.skills{
+    display: flex;
+    color: #1c1113;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin: 70px auto;
+    padding: 20px;
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 50%);
+    background-color: rgba(255, 255, 255, 0.3 );
+}
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1c1113;
+    margin: 0 0 20px
+}
+
+.progress {
+    height: 20px;
+    background: #1c1113;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #cbbbcc;
+    position: absolute;
+    top: -30px;
+    right: -25px
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background: #1c1113;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg)
+}
+.col-md-6{
+    flex: 50%;
+}
+.experiences h2 {
+    text-align: center;
+}
+  
+.experiences ul {
+    padding: 50px 0;
+}
+  
+.experiences ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #cbbbcc;
+    color: #1c1113;
+  }
+.experiences ul li::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #dfced2;
+}
+.experiences .bubble {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #dfced2;
+    box-sizing: border-box;
+}
+  
+.experiences .bubble::before {
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+  
+.experiences ul li:nth-child(odd) .bubble {
+    left: 45px;
+}
+  
+.experiences ul li:nth-child(odd) .bubble::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #dfced2 transparent transparent;
+}
+  
+.experiences ul li:nth-child(even) .bubble {
+    left: -439px;
+}
+  
+.experiences ul li:nth-child(even) .bubble::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #dfced2;
+}
+  
+time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+  
+.bubble span {
+    font-weight: bold;
+}
+.experiences ul li::after {
+    transition: background 0.5s ease-in-out;
+}
+  
+.experiences ul li.in-view::after {
+    background: #5b4c57;
+}
+  
+.experiences .bubble {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+  
+.experiences ul li:nth-child(odd) .bubble {
+    transform: translate3d(200px, 0, 0);
+}
+  
+.experiences ul li:nth-child(even) .bubble {
+    transform: translate3d(-200px, 0, 0);
+}
+  
+.experiences ul li.in-view .bubble {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}
+#fleche a{
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+    color: #1c1113;
+    font-size: xxx-large;
+}
+.fas {
+    color: #dfced2;
+}
+/* Media queries */
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}

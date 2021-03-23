@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <Link rel="stylesheet" href="css/bootstrap.min.css">
+  <Link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <title>Portfolio</title>
+</head>
+<header id="debut">
+  <!-- Création du menu bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MARQUIGNON Frédérique</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Présentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#competences">Compétences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#experiences">Expériences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Réalisations</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fin de la  nav-bar -->
+</header>
+
+<body>
+  <section class="presentation">
+    <img class="img" src="../Portfolio/img/fred.jpg" width="100px" alt="Photo de Frédérique">
+    <h1>Présentation</h1>
+
+    <p>Bonjour ! je suis actuellement en Formation dans le numérique en tant que Développeuse Web (full-stack).<br />
+      <strong><a href="https://www.linkedin.com/in/frederiquem" target="_blank"><em> Voici mon
+          linkedin.</em></a></strong>
+
+      Je <strong>recherche</strong> maintenant une entreprise pour un <strong>stage
+      à partir du 25 Mai en tant que Développeuse (front-end).</strong>
+      <br>
+      J'exerce depuis plus de 7 ans dans le domaine du support informatique. Optimiste, dynamique, curieuse, j'ai décidé
+      de donner un nouvel élan à ma carrière, en faisant une reconversion dans le monde du numérique en tant que développeuse web mobile
+    </p>
+    <p><a href="../Portfolio/img/CV de MARQUIGNON Frédérique.pdf"><strong><em>Curriculum Vitae</em></strong></a></p>
+  </section>
+  <section class="skills"> <!--Debut de la section Skills-->
+    <h2 id="competences">Compétences</h2>
+    <!-- Debut de la colonne 1 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="progress-title">HTML/CSS</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width:20%; background:#cbbbcc;">
+              <div class="progress-value">15%</div>
+            </div>
+          </div>
+          <h3 class="progress-title">BOOTSTRAP</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width:20%; background:#cbbbcc;">
+              <div class="progress-value">15%</div>
+            </div>
+          </div>
+          <h3 class="progress-title">JAVASCRIPT/JQUERY</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width:10%; background:#cbbbcc;">
+              <div class="progress-value">10%</div>
+            </div>
+          </div>
+          <h3 class="progress-title">ANGULAR+2 / IONIC</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width:10%; background:#cbbbcc;">
+              <div class="progress-value">10%</div>
+            </div>
+          </div>
+          <h3 class="progress-title">CMS/WORDPRESS-WORDPRESS-DEV</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width:10%; background:#cbbbcc;">
+              <div class="progress-value">10%</div>
+            </div>
+          </div>
+          <h3 class="progress-title">MySQL / PHP</h3>
+          <div class="progress">
+            <div class="progress-bar" style="width:10%; background:#cbbbcc;">
+              <div class="progress-value">10%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- Fin de la section Skills -->
+  <section class="experiences">
+    <h2 id="experiences">Expériences</h2><ul>
+      <li>
+        <div class="bubble"> <!-- Début expérience 1 -->
+          <time>2014 - 2016</time>
+          <span>Aide administrative - Ecole élémentaire Pierre Brossolette</span>
+          <br />région Seine et marne
+        </div>
+      </li>
+      <li>
+        <div class="bubble"> <!-- Début expérience 2 -->
+          <time>2007 - 2008</time>
+          <span>CNP - Helpdesk Support Utilisateurs </span>
+          <br />Paris
+        </div>
+      </li>
+      <li>
+        <div class="bubble">
+          <time>2007 - 2008</time>
+          <span>AXA - Helpdesk Support Utilisateurs </span>
+          <br />Paris
+        </div>
+      </li>
+      <li>
+        <div class="bubble">
+          <time>2007 - 2008</time>
+          <span>Crédit Coopératif - Helpdesk Support Utilisateurs </span>
+          <br />Paris
+        </div>
+      </li>
+  </section>
+  <div id="fleche">
+    <a  href="#debut">
+        <i class="fas fa-arrow-alt-circle-up"></i>
+    </a>
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
