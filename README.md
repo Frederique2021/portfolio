@@ -1,2 +1,2 @@
 # portfolio
-Portfolio qui va s'étoffer au fur et a mesure de la formation 
+Portfolio qui va s'étoffer au fur et à mesure de la formation 
