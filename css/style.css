@@ -2,16 +2,17 @@
 body{
     height: 100%;
     background-image: url("../img/Eclair.jpg");
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
+    background-color: #1c1113;
 }
 
-   
 .bg-light{
     background-color: #cbbbcc !important;
 }
 a, h1, h2{
     color: #1c1113 !important;
+    text-align: center;
 }
 nav a:hover{ 
     color: #4c443c !important;
@@ -39,11 +40,13 @@ a:hover{
 .img {
     border-radius: 50%;
     width: 150px;
-    margin-top: -30px;
+    margin-top: -15px;
 }
-h2{
+h3{
     text-align: center;
+    color: #cbbbcc;
 }
+
 .skills{
     display: flex;
     color: #1c1113;
@@ -66,7 +69,7 @@ h2{
 
 .progress {
     height: 20px;
-    background: #1c1113;
+    background: #cbbbcc;
     border-radius: 0;
     box-shadow: none;
     margin-bottom: 30px;
@@ -93,7 +96,7 @@ h2{
     content: "";
     display: inline-block;
     width: 10px;
-    background: #1c1113;
+    background: #cbbbcc;
     position: absolute;
     top: -10px;
     bottom: -10px;
