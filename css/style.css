@@ -46,7 +46,7 @@ h3{
     text-align: center;
     color: #cbbbcc;
 }
-
+/* Competences */
 .skills{
     display: flex;
     color: #1c1113;
@@ -107,6 +107,7 @@ h3{
 .col-md-6{
     flex: 50%;
 }
+/* experiences */
 .experiences h2 {
     text-align: center;
 }
@@ -210,6 +211,13 @@ time {
     visibility: visible;
     opacity: 1;
 }
+/* Réalisations */
+h4{
+    font-size: ;
+    text-align: center;
+    color: #cbbbcc;
+}
+
 /* Fleche de navigation */
 #fleche a{
     position: fixed;
